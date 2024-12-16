@@ -1,11 +1,10 @@
 #!/usr/bin/node
-let agrs = process.argv;
+const agrs = process.argv;
 
-let firstarg = agrs[2];
+const firstarg = agrs[2];
 
 if (firstarg) {
-	console.log(firstarg);
+  console.log(firstarg);
 } else {
-	console.log('No argument');
+  console.log('No argument');
 }
-
