@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
-let fS = "C is fun";
-let SS = "Python is cool";
-let tS = "JavaScript is amazing";
+const fS = 'C is fun';
+const SS = 'Python is cool';
+const tS = 'JavaScript is amazing';
 
 console.log(fS);
 console.log(SS);
